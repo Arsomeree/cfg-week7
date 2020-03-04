@@ -1,0 +1,50 @@
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+.Form{ font-weight: bold;
+    font-size: 16pt;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold ;
+    overflow: hidden;
+
+
+}
+.socials{float: inline-start;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold ;
+    overflow: hidden;
+    background-color: #333;
+     
+    
+}
+
+#footer{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#submit{
+    width: 10em; 
+     height: 2em;
+     font-weight: bold;
+
+}
+
+#Message{
+    
+    width: 500px;
+    height: 500px;
+    
+
+}
+

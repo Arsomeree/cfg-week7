@@ -1,0 +1,84 @@
+.map{  
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 0 auto;
+
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the navigation bar links */
+.navbar a {
+  float: inline-start;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold ;
+}
+.BottomNavbar{
+  float: inline-start;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold ;
+  overflow: hidden;
+  background-color: #333;
+  word-spacing: 30px;
+  }
+
+#footer{
+  text-align: center;
+  font-weight: bolder;
+}
+a:link{
+  color: white;
+}
+a:visited{
+
+  color: yellowgreen;
+}
+/* popups*/
+.popup{
+  width: 100vw;
+  height:100vh;
+  background-color: #282c34;
+  position:absolute;
+  top: 0px;
+  left:0px;
+  color: white;
+}
+
+.show{
+  display:block;
+}
+.hide{
+  display: none;
+}
+.text1 {
+  position:absolute;
+  left:50px;
+  top:100px
+}
+
+.text2 {
+  position:absolute;
+  left:200px;
+  top:50px
+}
