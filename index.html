@@ -1,114 +1,72 @@
-
-<!doctype html>
-<html lang="en">
-    <head>
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <link rel="stylesheet" href= "ProjectPage1.css">
-
-    <title>Food of the World!</title>
-    <script src="pop up message.js">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+     
+      <link rel="stylesheet" href= "index.css">
+      <script src="pop up message.js">
         </script>
+      </head>
 
 <!-- Nav Bar-->
 <body>
-  <div class="header">
-    <h1>Welcome to foods of the world!</h1>
-    <p>A website created to explore different cuisines from around the world.</p>
-  </div>
+  <header id="header" class="header-main">
   
-  <div class="navbar">
-    <a href="index.html">| Home |</a>
-      <a href="#">| The Chef Cuisine |</a>
-      <a href="ContactUsPage.html">| Contact us |</a>
-        </div>
-  
-  
-</head>
-    <!-- Bootstrap CSS -->
-   <script>$(function () {
-    $('.example-popover').popover({
-      container: 'body'
-    })
-  })</script>
-   <div class="container"></div>
-   <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
-  
-      <img class="map" src="images\maphd.jpg" alt="map">
-   
-<div class="text1">Text1</div>
-      <div class="text2">Text2</div>
+  <div class="container1 lime pullUp">
+    <a href="index.html"> |Home| </a>
+    <a href="SecondPage.html" style="color: #a3a375">|The Chef Cuisine|</a>
+    <a href="ContactUsPage.html" id="contact-us">|Contact us|</a>
     </div>
+  
+  </header>
+   <h1>Welcome to foods of the world!</h1>
+    <p>A website created to explore different cuisines from around the world.</p>
+    <br />
+  
+  
+  
+
+    <!-- Bootstrap CSS -->
+   
+    <img class="map" src="images\maphd.jpg" alt="map" usemap="#map">
+
       
      
  <!--Here put image tag with onclick function for popup-->
 
  
-<body>
+
   <!--Here put image tag with onclick function for popup-->
 
-     
-   
-     
-      
+      <img src="/images/maphd.jpg">
+  
+ 
+  
+ <!--Bottom nav bar with country choices-->
 
-  <img src="/images/maphd.jpg" onclick = "showPopop()" usemap="#map">
+     <footer>
+  <div class="BottomNavbar" >
+  <a href="https://en.wikipedia.org/wiki/List_of_Indian_dishes">India</a>
+  <a href="#news">China</a>
+  <a href="#news">Mexico</a>
+  <a href="#news">Italy</a>
+  <a href="#news">Japan</a>
+  <a href="#news">UK</a>
+  <a href="#news">Korea</a>
+  <a href="#news">Thailand</a>
+  <a href="#news">USA</a> </br>
 
-  <map name="map">
-    <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
-    <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
-    <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
-  </map>
-  <div class="popup hide" id="popup-container">
-    POP UP CONTENT <button onClick="hidePopop()"> click me </button>
-  </div>
-  <script>
-    function showPopop() {
-      console.log("opopo")
-      let popop = document.getElementById("popup-container")
-      popop.classList.add("show");
-      popop.classList.remove("hide");
-    }
-
-    function hidePopop() {
-      console.log("opopo")
-      let popop = document.getElementById("popup-container")
-      popop.classList.add("hide");
-      popop.classList.remove("show");
-    }
-
-
-  </script>
+</div>
 </body>
+  
+ <!--footer-->
 
-</html>
-
- <!--Bottom nav bar with country choices-->
- <div class="BottomNavbar">
-  <a href="#home">India</a>
-  <a href="#news">China</a>
-  <a href="#news">Mexico</a>
-  <a href="#news">Italy</a>
-  <a href="#news">Japan</a>
-  <a href="#news">UK</a>
-  <a href="#news">Korea</a>
-  <a href="#news">Thailand</a>
-  <a href="#news">USA</a> </br>
-  </div>
-
-  <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-  
- <!--footer-->
-<footer>
-  <p id="footer">&copy; 2020 - A Marica & Reena Production 🍕</p>
+  <p id="footer">&copy; 2020 - A Marica & Reena Production 🍕</p>
 </footer>
+
+
  
 </html>
