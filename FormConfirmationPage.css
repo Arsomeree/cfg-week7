@@ -1,0 +1,42 @@
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  /* Style the navigation bar links */
+  .navbar a {
+    float: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold ;
+    
+  }
+  a:link{
+    color: white;
+  }
+  a:visited{
+  
+    color: yellowgreen;
+  }
+/* stlye header */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+
+  .ThankYou
+  { margin-top: 70px;
+      font-size: 16pt;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold ;
+    overflow: hidden;
+
+  }
