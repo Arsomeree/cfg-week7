@@ -1,0 +1,48 @@
+<!doctype html>
+ <html lang="en">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+   <title>Contact us!</title>
+ <link rel="stylesheet" href= "FormConfirmationPage.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+ <body>
+    <div class="header">
+    <h1> Give us more food ideas! </h1>
+  </div>
+    <div class="navbar">
+      <a href="index.html">| Home |</a>
+        <a href="#">| The Chef Cuisine |</a>
+        <a href="ContactUsPage.html">| Contact us |</a>
+          </div>
+
+          <script>
+              
+            const getString = window.location.search;
+            console.log(getString);
+            const urlParam = new URLSearchParams(getString);
+            const name = urlParam.get('name')
+            console.log(name);
+
+            const getString2 = window.location.search;
+            console.log(getString2);
+            const urlParam2 = new URLSearchParams(getString2);
+            const Country = urlParam2.get('Country')
+            console.log(Country); 
+                                          
+                        </script>
+
+            <div class="ThankYou">
+            
+        <p> Thank you for getting in touch! </br><br>
+
+             We appreciate you contacting us <script>document.write(`${name}`+ " from " +`${ Country}`+".")</script></br></br>
+                        
+            Have a great day!</p></br></br>
+
+            <img src="images\Tick.gif" alt="Tick">
+           </div>
+          </body>
+ 
+ </html>
