@@ -47,4 +47,55 @@
     
 
 }
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  /* Style the navigation bar links */
+  .navbar a {
+    float: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold ;
+    
+  }
+  a:link{
+    color: white;
+  }
+  a:visited{
+  
+    color: yellowgreen;
+  }
+/* style header */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
 
+
+  .hvr-float:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+  }
+  .hvr-float:hover,
+  .hvr-float:focus,
+  .hvr-float:active {
+    transform: translateY(-8px);
+  }
+      
