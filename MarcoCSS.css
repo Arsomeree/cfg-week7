@@ -1,0 +1,57 @@
+
+#text-portion {
+    border: 2px solid white;
+    padding: 15px;
+    position: absolute;
+    margin: 10% 5% 5% 5%;
+    color:white;
+    }
+    
+    h3 {
+        text-align: left;
+        font-family:'Comfortaa', cursive;
+        font-size: 24px;
+        font-weight: bold;
+        }
+    
+    p {
+        font-family:'Comfortaa', cursive;
+        font-size: 18px;
+        text-align: justify;
+            }
+    
+    a {
+        color: #c0ca33;
+        }
+    
+    a:visited {
+        color: grey;
+        }
+    
+    div.copyright {
+      text-align: center;
+      color: white;
+      font-size: 12;
+      font-weight: bold;
+      font-family:  'Comfortaa', cursive;
+    }
+    #text-portion:after {
+      content: "";
+      display: block;
+    }
+    .copyright {
+      display: block;
+      position: relative;
+      margin-bottom: 0%;
+      margin-top: 50%;
+    }
+    @media (max-width: 500px) {
+      div.container1 {
+        font-family: 'Comfortaa', cursive;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 29px;
+        text-align: center;
+      }
+    }
+    
