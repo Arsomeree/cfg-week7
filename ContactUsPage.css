@@ -47,16 +47,15 @@
     
     width: 500px;
     height: 500px;
-    border: 2px #333 solid
-    
+    border: 2px #333 solid;
+    }
 
-}
 #Country{
-  border: 2px black solid
+  border: 2px black solid;
 }
 
 #name{
-  border: 2px black solid
+  border: 2px black solid;
 }
 
 
