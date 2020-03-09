@@ -1,64 +1,3 @@
-/*.header {
-    padding: 80px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;}*/
-
-.Form{ font-weight: bold;
-    font-size: 16pt;
-    display: block;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight: bold ;
-    overflow: hidden;
-   
-
-
-}
-.socials{float: inline-start;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight: bold ;
-    overflow: hidden;
-    background-color:black;
-     
-    
-}
-
-#footer{
-    text-align: center;
-    font-weight: bolder;
-    background-color: black;
-    color: white;
-}
-
-#submit{
-    width: 10em; 
-     height: 2em;
-     font-weight: bold;
-
-}
-
-#Message{
-    
-    width: 500px;
-    height: 500px;
-    border: 2px #333 solid
-    
-
-}
-#Country{
-  border: 2px black solid
-}
-
-#name{
-  border: 2px black solid
-}
-
 
 /* mary code*/
 
@@ -131,7 +70,7 @@ div.pullUp a:hover:before
 
 h1 {
   font-family:'Snell Roundhand';
-  padding: 50px 10px 170px 10px;
+  padding: 50px 10px 210px 10px;
   font-size: 80px;
   color: white;
 
@@ -210,32 +149,53 @@ footer{
   font-family: 'Arsenal', sans-serif;;
   font-size:18px;
   color: white;
-  padding: 40px 0px 20px 0px;
+  padding:20px 0px 5px 0px;
+  background-color: #333;
 
 }
 
-
-
-  .hvr-float:active {
-    background-color: black;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-  }
-  .hvr-float:hover,
-  .hvr-float:focus,
-  .hvr-float:active {
-    transform: translateY(-8px);
-  }
-      
-  .btn btn-primary{ cursor: pointer;
+.BottomNavbar{
+  float: inline-start;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-weight: bold ;
+  overflow: hidden;
+  background-color: #333;
+  position: initial;
 
   }
+  a{
+    margin-right: 30px;
+  }
+
+
+  .map{  
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 0 auto;
+  }
+  area{    cursor: pointer;
+   
+  
+  }
+
+  .BottomNavbar{    cursor: pointer;
+   
+  
+}
+  
+/* styling tooltip */
+/* Tooltip container */
+
+
+a
+{ cursor: pointer;
+   
+  
+}
