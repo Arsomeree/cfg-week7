@@ -48,14 +48,33 @@
     width: 500px;
     height: 500px;
     border: 2px #333 solid;
-    }
+    
+            padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      resize: none;
+}
+button{cursor: pointer;}
+    
+textarea {
+  width: 500px;
+   height: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px #333 solid;
+}
+
 
 #Country{
-  border: 2px black solid;
+  border: 2px black solid
 }
 
 #name{
-  border: 2px black solid;
+  border: 2px black solid
 }
 
 
@@ -130,7 +149,7 @@ div.pullUp a:hover:before
 
 h1 {
   font-family:'Snell Roundhand';
-  padding: 50px 10px 170px 10px;
+  padding: 50px 10px 220px 10px;
   font-size: 80px;
   color: white;
 
@@ -209,7 +228,8 @@ footer{
   font-family: 'Arsenal', sans-serif;;
   font-size:18px;
   color: white;
-  padding: 40px 0px 20px 0px;
+  padding: 00px 0px 20px 0px;
+  height: 100px;
 
 }
 
@@ -238,3 +258,4 @@ footer{
   .btn btn-primary{ cursor: pointer;
 
   }
+
