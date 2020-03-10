@@ -48,9 +48,10 @@ div.container1 a {
     cursor: pointer;
     text-decoration: none;
 }
-.lime {
+.orange {
     background: rgba(0,0,255,0.3);
 }
+/* hover chnaging position header code*/
 div.pullUp a:before
 {
     position: absolute;
@@ -190,8 +191,6 @@ footer{
   
 }
   
-/* styling tooltip */
-/* Tooltip container */
 
 
 a
